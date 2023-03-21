@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "description": "Highlights unsafe usage of Array.prototype.sort",
   "author": "Sophia Willows <sophia.willows@hey.com> (https://sophiabits.com/)",
-  "homepage": "https://github.com/sophiabits/eslint-plugin-array-sort#readme",
   "keywords": [
     "eslint",
     "eslintplugin",
@@ -11,6 +10,12 @@
   ],
   "main": "./lib/index.js",
   "exports": "./lib/index.js",
+  "files": ["lib"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sophiabits/eslint-plugin-array-sort.git"
+  },
+  "homepage": "https://github.com/sophiabits/eslint-plugin-array-sort#readme",
   "scripts": {
     "lint": "npm-run-all \"lint:*\"",
     "lint:eslint-docs": "npm-run-all \"update:eslint-docs -- --check\"",
